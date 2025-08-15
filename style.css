@@ -7,18 +7,18 @@ body {
 
 #keyboard {
   position: relative;
-  left: 12%;
+  left: 15%;
 }
 
 .rectangle {
   z-index: 10000;
   position: relative;
-  left: 60%;
+  left: 52.5%;
   bottom: 100px;
 
-  width: 400px; /* Width of the rectangle */
+  width: 600px; /* Width of the rectangle */
   height: 100px; /* Height of the rectangle */
-  background-color: #999918; /* Rectangle color */
+  background-color: #000018; /* Rectangle color */
 }
 
 .hire-me {
