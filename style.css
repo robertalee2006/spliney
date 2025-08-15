@@ -16,7 +16,7 @@ body {
   left: 60%;
   bottom: 100px;
 
-  width: 300px; /* Width of the rectangle */
+  width: 400px; /* Width of the rectangle */
   height: 100px; /* Height of the rectangle */
   background-color: #000018; /* Rectangle color */
 }
