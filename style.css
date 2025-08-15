@@ -1,9 +1,26 @@
 body {
   background: #000018;
-  /* justify-content: center;
-  align-content: center; */
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
 }
 
 #keyboard {
-  border-radius: 100%;
+  position: relative;
+  left: 12%;
+}
+
+.rectangle {
+  z-index: 10000;
+  position: relative;
+  left: 60%;
+  bottom: 100px;
+
+  width: 300px; /* Width of the rectangle */
+  height: 100px; /* Height of the rectangle */
+  background-color: #000018; /* Rectangle color */
+}
+
+.hire-me {
+  background: white;
 }
