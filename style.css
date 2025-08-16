@@ -1,26 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-weight: "regular";
+}
+
+h1 {
+  display: flex;
+  margin: 0 auto; /* Key for horizontal centering */
+  justify-content: center;
+  padding-top: 50px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+h3 {
+  width: 750px;
+  text-align: center;
+  margin: 0 auto; /* Key for horizontal centering */
+  padding-top: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400; /* "regular" is invalid; use 400 */
+  color: white;
+  font-size: 20px;
+}
+
+.keyboard-container {
+  scale: 0.9;
+  min-height: 100px;
+}
+
 body {
   background: #000018;
   justify-content: center;
   align-content: center;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 #keyboard {
+  pointer-events: auto;
+  z-index: 100;
   position: relative;
-  left: 12%;
+  left: 15%;
+  margin-top: -130px;
+}
+
+.buttons,
+.buttons button {
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0;
 }
 
 .rectangle {
   z-index: 10000;
   position: relative;
-  left: 60%;
+  left: 52.5%;
   bottom: 100px;
 
-  width: 300px; /* Width of the rectangle */
+  width: 600px; /* Width of the rectangle */
   height: 100px; /* Height of the rectangle */
   background-color: #000018; /* Rectangle color */
 }
 
 .hire-me {
+  position: relative;
+  left: 40%;
+  bottom: 550px;
+  width: 200px;
+  height: 200px;
   background: white;
+}
+
+.me {
+  position: relative;
+  rotate: 25deg;
+  left: 12%;
+  bottom: 630px;
+  width: 200px;
+  height: 80px;
+  background: hotpink;
+}
+
+.works {
+  position: relative;
+  rotate: 32deg;
+  left: -15%;
+  bottom: 595px;
+  width: 200px;
+  height: 100px;
+  background: purple;
+}
+
+.figma {
+  position: relative;
+  rotate: 35deg;
+  left: -23%;
+  bottom: 710px;
+  width: 90px;
+  height: 90px;
+  background: yellow;
+}
+
+.resume {
+  position: relative;
+  rotate: 35deg;
+  left: -24%;
+  bottom: 760px;
+  width: 150px;
+  height: 80px;
+  background: orange;
 }
